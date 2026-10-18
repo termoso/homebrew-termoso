@@ -5,8 +5,8 @@ cask "termoso" do
   sha256 arm:   "9c88d40387a6abc9699d873e28279376b1e6da35ac0978c5632713a8a9c43278",
          intel: "0e9bcc48eb0f4ad49476bb2f20bbe5810fdd901579196dc575b3bf28a6e317c6"
 
-  url "https://github.com/rep0rtDev/termoso/releases/download/v#{version}/Termoso_#{version}_#{arch}.dmg",
-      verified: "github.com/rep0rtDev/termoso/"
+  url "https://github.com/termoso/termoso/releases/download/v#{version}/Termoso_#{version}_#{arch}.dmg",
+      verified: "github.com/termoso/termoso/"
   name "Termoso"
   desc "SSH, SFTP and terminal client with end-to-end encrypted sync"
   homepage "https://termoso.dev/"
