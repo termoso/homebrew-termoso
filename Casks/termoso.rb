@@ -1,9 +1,9 @@
 cask "termoso" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.10.0"
-  sha256 arm:   "01493861725b2d6b11efbdda20a486d30078028d536ec01fff0d6e542e99e05d",
-         intel: "66e7273325bd4848ed8a78e58efa8d107737ccfcaf6729092a2709905e41e095"
+  version "0.11.0"
+  sha256 arm:   "7d8747003e18da7d95ce684176c0abcc567083eb93a2bb647a56a17cbaddfbc9",
+         intel: "cd6d128255bbecbecc5e546f4bc270f74d1658b2a2e7477eff58326f0547866b"
 
   url "https://github.com/termoso/termoso/releases/download/v#{version}/Termoso_#{version}_#{arch}.dmg",
       verified: "github.com/termoso/termoso/"
